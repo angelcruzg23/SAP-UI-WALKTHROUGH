@@ -2,10 +2,10 @@
     xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" 
     controllerName="sap.ui.demo.walkthrough.controller.App">
 
-    <Button id="idBtn" text="Say Hi!" press="onPress"/>
+    <Button id="idBtn" text="Say Hi yo!" press="onPress"/>
     <Input 
         value="{/recipient/name}" 
-        description="Hello {/recipient/name}" 
+        description="Hello World {/recipient/name}" 
         valueLiveUpdate="true"
         width="60%"></Input>
 </mvc:View> 
