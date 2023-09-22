@@ -5,7 +5,7 @@
     <Button id="idBtn" text="{i18n>showHelloButtonText}" press="onPress"/>
     <Input 
         value="{/recipient/name}" 
-        description="Hello World! {/recipient/name}" 
+        description="Hello World!!! {/recipient/name}" 
         valueLiveUpdate="true"
         width="60%"></Input>
 </mvc:View> 
