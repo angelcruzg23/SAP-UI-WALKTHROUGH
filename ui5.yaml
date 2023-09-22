@@ -1,6 +1,6 @@
-specVersion: '3.1'
+specVersion: "3.0"
 metadata:
-  name: 'yes'
+  name: "yes"
 type: application
 framework:
   name: SAPUI5
