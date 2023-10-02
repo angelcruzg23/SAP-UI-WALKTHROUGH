@@ -13,17 +13,11 @@ sap.ui.define(
        * @override
        */
 
-      onPress: function () {
-        //Read message from the i18n model
-        var oBundle = this.getView().getModel("i18n").getResourceBundle();
-        var sRecipient = this.getView()
-          .getModel()
-          .getProperty("/recipient/name");
-        var sMessage = oBundle.getText("HelloMsg", [sRecipient]);
+      onOpenDialog : function () {
+          var oComponent = this.getOwnerComponent();
+          oComponent.openHelloDialog();
 
-        //Show a native or vanailla alert JS
-        MessageToast.show(sMessage);
-      },
+      }
     });
   }
 );
